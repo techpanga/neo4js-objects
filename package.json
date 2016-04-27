@@ -1,0 +1,27 @@
+{
+  "name": "neo4js-objects",
+  "version": "0.0.0",
+  "description": "A small library providing utility methods to escape and unescape HTML entities",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "node-neo4j":"~2.0.3"
+  }
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brentertz/scapegoat.git"
+  },
+  "keywords": [
+    "neo4j",
+    "orm",
+    "nodejs"
+  ],
+  "author": "Durga Panga <techpanga@gmail.com> (http://techamara.com/)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/techpanga/neo4js-objects/issues"
+  }
+}

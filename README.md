@@ -1,6 +1,17 @@
 # neo4js-objects
 Schema Based API for Neo4j in Nodejs
 
+Friends,
+
+This is putting together an idea to easy dealing of Neo4j Graph DB. I used Philipp Küng's node-neo4j.
+
+Roadmap:
+1. Transactions
+2. Pipe way of doing sequencial operations.
+
+Please send feature requests to techpanga@gmail.com
+
+
 Sample Code:
 
 var Schema=require('neo4js-objects');

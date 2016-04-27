@@ -26,7 +26,15 @@ schema.node("Media").props({"mtype":{}, "subtype":{},"url":{},"html":{},"content
 
 schema.node("User").props({"identifier":{unique:true},"name":{},"emailId":{},"mobile":{},auth:{unique:true},app:{},channel:{},tempKey:{},secode:{}})
 
-    .$out([{{name:"personUser",type:"Person",label:"personUser"},{name:"organizationUser",type:"Organization",label:"organizationUser"},{name:"devices",type:"Device[]",label:"userdevice"}]);
+    .$out([
+    
+    {{name:"personUser",type:"Person",label:"personUser"},
+    
+    {name:"organizationUser",type:"Organization",label:"organizationUser"},
+    
+    {name:"devices",type:"Device[]",label:"userdevice"}
+    
+    ]);
 
 schema.node("Person").props({"mobile":{},"name":{},"age":{},"emailId":{},"birthMonth":{},"birthYear":{},"title":{},"profession":{},"interests":{}})
 

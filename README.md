@@ -1,5 +1,5 @@
 # neo4js-objects
-Schema Based API for Neo4j in Nodejs
+Schema Based API for Neo4j in Nodejs (<b>Work in Progress</b>)
 
 Friends,
 

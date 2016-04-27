@@ -9,7 +9,7 @@ Roadmap:
 1. Transactions
 2. Pipe way of doing sequencial operations.
 
-Please send feature requests to techpanga@gmail.com
+Please send feature requests to <a href='mailto:techpanga@gmail.com'>techpanga</a>
 
 
 Sample Code:
